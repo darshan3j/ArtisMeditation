@@ -1,0 +1,138 @@
+.header{
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.863); 
+}
+body{
+    margin: 0;
+}
+.grid-container {
+    display: grid;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.grid-item {
+    background-color: white;
+    padding: 10px 2px;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;
+}
+nav>ul{
+    margin: 0;
+}
+nav>ul>li{
+    margin-bottom: -25px;
+    display: inline-block;
+    padding: 1px 45px;    
+}
+nav>ul>li>a{
+    color: black;
+    text-decoration: none;
+    padding: 14px 10px;
+}
+
+nav>ul>li>a:hover{
+    background-color: rgb(212, 145, 20);
+}
+
+#mainbg{
+    height: 700px;
+    width: 100%;
+}
+
+.collection{
+    margin-top: 20px;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 10px;
+}
+
+.grid-item2{ 
+    height: 280px;
+    width: 300px;
+}
+
+.grid-item2:hover{
+    box-shadow: 0 2px 18px rgb(92, 48, 12);
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+.caption { 
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+.decor{
+    height: 280px;
+    width: 300px;
+}
+
+#foot-parent{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.863);
+    margin-top: 150px;
+    width: 100%;
+    padding: 50px 0px;
+    color: white;
+    display: flex;
+}
+
+
+#f1{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#f1:hover{
+    color:blueviolet;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-1{
+    flex-grow: 0.5;
+}
+.col-2{
+    flex-grow: 0.5;
+}
+.col-3{
+    flex-grow: 0.5;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-2 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+#copyright{
+    background-color: rgba(0, 0, 0, 0.863);
+    color: azure;
+    margin-top: 0.5px;
+    height: 30px;
+    padding: 12px 10px 10px 10px;
+    text-align: center;
+    justify-content: center;
+}

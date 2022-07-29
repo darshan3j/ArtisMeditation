@@ -1,0 +1,37 @@
+#about{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.863);
+    margin-bottom: 50px;
+}
+
+.ab_main{
+    height: 500px;
+    width: 100%;
+}
+
+#news{
+    display: block;
+    margin:auto;
+    height:350px; 
+    width:250px; 
+}
+
+#news:hover{
+    transform: scale(1.3);
+    transition-duration: 3s;
+}
+
+#news:not(:hover){
+    transition-duration: 3s;
+}
+
+#content{
+    height: 400px;
+    width: 450px;
+    margin: 0px 600px ;
+}
+.para{
+    margin-top: 0;
+    padding: 5px;
+    justify-content: center;
+}

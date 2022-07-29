@@ -1,0 +1,11 @@
+#heading{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.863);
+    margin-bottom: 50px;
+}
+
+.cont{
+    margin: 20px 300px 20px 300px;
+    color: rgba(0, 0, 0, 0.863);
+    padding: 10px;
+}
